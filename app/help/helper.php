@@ -120,7 +120,6 @@ function buForUserCount($user_id ,$status){
 function is_active(String $routeName)
 {
 
-
     return NULL !== request()->segment(1) && request()->segment(1) == $routeName ? 'active' : '';
 
 }
